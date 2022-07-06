@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,500;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contacts.css">
     <title>Document</title>
 </head>
 <body>
@@ -18,23 +18,39 @@
                         <img src="../src/img/code.svg" alt="">
                     </div>
                     <nav class="header-nav">
-                        <a class="header-nav-link active" href="index.html">Home</a>
+                        <a class="header-nav-link" href="index.html">Home</a>
                         <a class="header-nav-link" href="about-me.html">About me</a>
-                        <a class="header-nav-link" href="contacts.html">Contacts
-                        </a>
+                        <a class="header-nav-link active" href="contacts.html">Contacts</a>
                     </nav>
                 </div>
-            </div>
+            </div> 
         </header>
         <div class="container">
             <div class="content">
-                <h2 class="subtitle">My name is</h2>
-                <h1 class="title">Artjoms Mambetovs and I'm <span>QA engineer</span></h1>
-                <div class="text">
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English.
-                    </p>
+                <div class="content-title">
+                    <h1 class="title">Write me a <span>message</span></h1>
+                    <div class="text">
+                        <p>Many desktop publishing packages an web page editors now use Lorem.</p>
+                    </div>
                 </div>
-                    <a class="btn" href="#">Contact me</a>
+                <form class="form" action="#", method="post">
+                    <div class="input-form">
+                        <input class="input-field" type="text" name="name" placeholder="Name">
+                    </div>
+                    <div class="input-form">
+                        <input class="input-field" type="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="input-form">
+                        <input class="input-field" type="tel" name="tel" placeholder="Phone">
+                    </div>
+                    <div class="input-form">
+                        <textarea class="textarea" name="text" placeholder="Message"></textarea>
+                    </div>
+                    <div class="input-form">
+                        <button class="btn btn-contacts" type="submit">Send message</button>
+                    </div>
+                </form>
+
             </div>
         </div>
 

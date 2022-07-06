@@ -105,15 +105,12 @@ p {
     margin-top: 110px;
     width: 565px;
 }
-.subtitle {
-    font-size: 1.4rem;
-    color: rgba(255, 255, 255, .6);
-    font-weight: 300;
 
+.content-title {
+    margin-bottom: 35px;
 }
 
 .title {
-    margin-bottom: 35px;
     font-size: 2rem;
     color: #fff;
     font-weight: 500;
@@ -130,6 +127,40 @@ p {
    color: #fff;
 }
 
+/* Form ====== */ 
+.form {
+    width: 100%;
+    max-width: 280px;
+}
+
+.input-form {
+    margin-bottom: 20px;
+}
+
+.input-field,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 12px 18px;
+
+    font-family: inherit;
+    font-size: 1rem;
+    color: #fff;
+
+    border: 0;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+}
+
+.textarea {
+    height: 100px;
+    resize: none;
+}
+.input-field::placeholder,
+.textarea::placeholder {
+    color: #fff;
+}
+
 /* Button ====== */ 
 .btn {
 display: inline-block;
@@ -139,7 +170,10 @@ color: #fff;
 font-weight: 500;
 text-decoration: none;
 line-height: 1.1;
+font-family: inherit;
+cursor: pointer;
 
+border: 0;
 background-color: #2B7DED;
 border-radius: 5px;
 
@@ -148,6 +182,11 @@ transition: .2s linear;
 
 .btn:hover{
     background-color: #1461cb;
+}
+
+.btn-contacts {
+    display: block;
+    width: 100%;
 }
 
 /* QA img ====== */
